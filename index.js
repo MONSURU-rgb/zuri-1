@@ -26,4 +26,4 @@ function updateDay() {
   lastDay = currentDay; // Update the last recorded day
 }
 
-setInterval(updateDay, 1000);
+setInterval(updateDay, 6000);
