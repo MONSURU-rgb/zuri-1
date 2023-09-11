@@ -17,6 +17,10 @@ body {
   align-items: center;
   gap: 20px;
 }
+
+h2 {
+  font-size: 34px;
+}
 main {
   display: flex;
   flex-direction: column;

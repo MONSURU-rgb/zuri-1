@@ -9,18 +9,28 @@
   <body>
     <div class="container">
       <header>
-        <h2>Waiyakidev</h2>
+        <h2 data-testid="slackUserName">Waiyakidev</h2>
       </header>
       <main>
+        <!-- USER IMAGE -->
         <img
           src="./personal-image.jpg"
-          alt="Waiyakidev"
+          alt="WaiyakiDev"
           data-testid="slackDisplayImage" />
 
+        <!-- CURRENT DAY OF THE WEEK -->
         <p id="day" data-testid="currentDayOfTheWeek"></p>
+
+        <!-- CURRENT UTC TIME IN MILLISECONDS -->
         <time id="UTCtime" data-testid="currentUTCTime"></time>
+
+        <!-- TRACK -->
         <h3 data-testid="myTrack">Frontend</h3>
-        <a href="">My Github Repo</a>
+
+        <!-- GITHUB URL -->
+        <a href="https://github.com/MONSURU-rgb/zuri-1" data-testid="githubURL"
+          >My Github Repo</a
+        >
       </main>
     </div>
     <script src="./index.js"></script>
